@@ -1,0 +1,20 @@
+This file contains information about using spring framework.
+
+=> First create a maven project (quick arctype standalone application) and then 
+	add springContext as dependency.
+
+=> ApplicationContext: It means the spring container which is responsible for creating and managing 
+		the beans, it creates the spring container. It is present inside JVM.
+				
+=> To create bean in spring we can create a spring.xml file to register bean
+				
+=> scope: In spring framework by default object/bean is created upon the singleton design pattern. To change
+		this use scope attribute in spring.xml file, there are two values for it "singleton" and "prototype".
+		
+=> setter injection : Sometimes we want to set the default value of variables declared in the class. There are
+	multiple ways of it: a) define in the class itself b) using setter method and c) To use it using spring.xml
+	In spring.xml add tag <property> which represents variable of class. 
+
+=> ref attribute: Sometimes we have to refer the refernceDataType means other class object then use
+   attribute ref in spring.xml.
+	

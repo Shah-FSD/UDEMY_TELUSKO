@@ -1,0 +1,7 @@
+This project covers the use of spring security for spring boot version 3.1.1
+
+# First add spring security dependency
+# Create a configuration class then create bean for authentication, authorization, passwordencoder etc
+
+#
+

@@ -1,0 +1,11 @@
+This project is about using Spring MVC.
+Model = Data
+View = jsp or any other technology for UI
+Controller = RequestHandler
+
+=>  In spring MVC, dispatcherServlet handles the request
+=> create jsp file in main>webapp folder 
+
+annotations:
+	@ModelAttribute
+
